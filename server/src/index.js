@@ -1,6 +1,8 @@
+/* eslint-disable no-console */
 import express from 'express';
 import bodyParser from 'body-parser';
 import morgan from 'morgan';
+import './config/db';
 
 const app = express();
 const port = process.env.PORT || 4000;
